@@ -23,7 +23,7 @@ const ItemDetail = ({ item, addItem }) => {
               ${price}
             </span>
             <h4 className='text1'>
-              Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.
+              {detail}
             </h4>           
             <button onClick={
               () => {
