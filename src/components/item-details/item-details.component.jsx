@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 import './item-details.styles.scss';
 
 const ItemDetail = ({ item, addItem }) => {
-  const { name, price, imageUrl } = item;
+  const { name, price, detail, imageUrl } = item;
   const addItemFunc = (x) => addItem(x);
   const toastItem = () => toast('Your item added successful :3');
   return (
